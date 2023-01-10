@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Overpass:ital,wght@1,600&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-lines: border-box;
+  font-family: "Inter", sans-serif;
+}
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #23252c;
+padding: 2rem 0;
+}
+.main {
+  background-color: #1a1b21;
+  max-width: 310px;
+  color: white;
+}
+.image {
+  object-fit: cover;
+  width: 310px;
+  height: 310px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.info h3 {
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 25px;
+}
+.info h4 {
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 13px;
+  color: #f3bf99;
+}
+
+.info h5 {
+  font-weight: 400;
+  line-height: 15px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* buttons */
+.buttons {
+  padding: 0 20px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.buttons .email {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 500;
+  width: 115px;
+  color: black;
+  background-color: white;
+  padding: 5px;
+}
+.email span {
+  width: 36px;
+  height: 16px;
+  color: #374151;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.email .icon {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.buttons .linkedin {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: 500;
+  width: 115px;
+  color: black;
+  background-color: #5093e2;
+  padding: 5px;
+}
+.linkedin span {
+  width: 36px;
+  height: 16px;
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.linkedin .icon {
+  font-size: 1.3rem;
+  color: white;
+}
+/* buttons end */
+
+.about {
+  padding: 0 20px;
+  margin-bottom: 1.5rem;
+}
+.about h3 {
+  margin-bottom: 0.3rem;
+  font-weight: 700;
+  color: #f5f5f5;
+  line-height: 150%;
+  font-size: 16px;
+}
+.about p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+/* interest */
+.interest {
+  padding: 0 20px;
+  margin-bottom: 2rem;
+}
+.interest h3 {
+  margin-bottom: 0.3rem;
+  color: #f5f5f5;
+  font-weight: 700;
+  line-height: 150%;
+  font-size: 16px;
+}
+.interest p {
+  color: #dcdcdc;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+/* footer */
+
+.footer {
+  background-color: #161619;
+  height: 64px;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  display: flex;
+}
+
+.footer .icon {
+  font-size: 2rem;
+  /* background: #918e9b; */
+  color: #918e9b;
+  padding: 5px;
+  cursor: pointer;
+}
